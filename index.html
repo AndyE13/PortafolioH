@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Andrea Elizabeth Meneses García, especializada en diseño UX/UI y desarrollo frontend">
+    <meta name="keywords" content="frontend developer, ux/ui designer, web developer, portfolio, andrea meneses">
+    <meta name="author" content="Andrea Elizabeth Meneses García">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Andrea Meneses - Frontend Developer">
+    <meta property="og:description" content="Portafolio profesional de desarrolladora frontend">
+    <meta property="og:type" content="website">
+    
+    <title>Andrea Elizabeth Meneses García - Frontend Developer</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top navbar-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="#hero">
+                <video src="images/gift duck.webm" autoplay muted loop width="50" height="50" title="Gift Duck"></video>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link scroll-link" href="#hero">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link scroll-link" href="#portfolio">Portafolio</a></li>
+                    <li class="nav-item"><a class="nav-link scroll-link" href="#about">Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link scroll-link" href="#resume">CV</a></li>
+                    <li class="nav-item"><a class="nav-link scroll-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section min-vh-100 d-flex align-items-center justify-content-center position-relative overflow-hidden">
+        <!-- Animated Background -->
+        <div class="hero-bg-container">
+            <div class="hero-gradient"></div>
+            
+            <!-- Animated Grid -->
+            <div class="animated-grid"></div>
+            
+            <!-- Floating Particles -->
+            <div id="particlesContainer" class="particles-container"></div>
+        </div>
+        
+        <div class="container position-relative text-center" style="z-index: 10;">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <div class="fade-in">
+                        <div class="badge-custom mb-4 d-inline-block">
+                            <span class="text-purple">FRONTEND DEVELOPER</span>
+                        </div>
+                        
+                        <h1 class="display-2 mb-4 hero-title">
+                            <span class="d-block text-white">Andrea Elizabeth</span>
+                            <span class="d-block hero-gradient-text">Meneses García</span>
+                        </h1>
+                        
+                        <p class="lead text-muted mb-3" style="text-align: center;">
+                            Frontend Developer | Interactive Web Experiences
+                        </p>
+                        <p class="text-muted mb-5" style="font-size: 1.1rem;">
+                            Creando experiencias web inmersivas que combinan código elegante, diseño minimalista y la magia de las interfaces interactivas.
+                        </p>
+                        
+                        <div class="d-flex gap-3 mb-5 justify-content-center" style="flex-wrap: wrap;">
+                            <a href="#portfolio" class="btn btn-purple btn-lg">Ver Portafolio</a>
+                            <a href="#contact" class="btn btn-outline-purple btn-lg">Contactar</a>
+                        </div>
+                        
+                        <div class="d-flex gap-4 justify-content-center" style="font-size: 1.5rem;">
+                            <a href="mailto:andrea.elizabeth.meneses.g@gmail.com" class="social-btn">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="https://github.com/AndyE13" target="_blank" class="social-btn">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/andrea-elizabeth-meneses/" target="_blank" class="social-btn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="portfolio-section py-5">
+        <!-- Animated Background -->
+        <div class="portfolio-bg-container">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="animated-grid-small"></div>
+            <div class="rotating-gradient"></div>
+        </div>
+        <div class="container position-relative" style="z-index: 10;">
+            <div class="text-center mb-5">
+                <h2 class="display-4">
+                    <video src="images/gift duck.webm" autoplay muted loop width="50" height="50" title="Gift Duck" style="vertical-align: middle; margin-right: 10px;"></video>
+                    <span class="text-white">Portafolio</span>
+                </h2>
+                <p class="text-muted">Proyectos que fusionan creatividad, tecnología y experiencias interactivas</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Proyecto 1: KinConecta -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card fade-in">
+                        <div class="project-image">
+                            <img src="images/result.png" alt="KinConecta" class="img-fluid">
+                        </div>
+                        <div class="project-content">
+                            <h5>KinConecta</h5>
+                            <p class="text-muted small">Red social de viajes que conecta turistas con guías locales en México para experiencias auténticas y personalizadas.</p>
+                            <div class="tech-badges mb-3">
+                                <span class="badge">JavaScript</span>
+                                <span class="badge">HTML5</span>
+                                <span class="badge">CSS3</span>
+                                <span class="badge">Java</span>
+                                <span class="badge">Spring Boot</span>
+                                <span class="badge">MySQL</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="https://kin-conecta.vercel.app/" target="_blank" class="btn btn-sm btn-purple">
+                                    <i class="fas fa-external-link-alt me-2"></i>Demo
+                                </a>
+                                <a href="https://github.com/isa-capa/KinConecta" target="_blank" class="btn btn-sm btn-outline-purple">
+                                    <i class="fab fa-github me-2"></i>Código
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2: Casa Isis -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card fade-in" style="animation-delay: 0.1s;">
+                        <div class="project-image">
+                            <img src="images/isis.png" alt="Casa Isis" class="img-fluid">
+                        </div>
+                        <div class="project-content">
+                            <h5>Casa Isis - Rediseño UX/UI</h5>
+                            <p class="text-muted small">Rediseño conceptual del sitio web de Casa Isis, organización dedicada a apoyar adultos en situación de vulnerabilidad.</p>
+                            <div class="tech-badges mb-3">
+                                <span class="badge">HTML5</span>
+                                <span class="badge">CSS3</span>
+                                <span class="badge">JavaScript</span>
+                                <span class="badge">Bootstrap</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="https://isisrico.org/" target="_blank" class="btn btn-sm btn-purple">
+                                    <i class="fas fa-external-link-alt me-2"></i>Demo
+                                </a>
+                                <a href="https://github.com/AndyE13/CASAISIS" target="_blank" class="btn btn-sm btn-outline-purple">
+                                    <i class="fab fa-github me-2"></i>Código
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section py-5">
+        <!-- Animated Background -->
+        <div class="about-bg-container">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="rotating-gradient"></div>
+        </div>
+        <div class="container position-relative" style="z-index: 10;">
+            <div class="text-center mb-5">
+                <h2 class="display-4">
+                    <video src="images/gift duck.webm" autoplay muted loop width="50" height="50" title="Gift Duck" style="vertical-align: middle; margin-right: 10px;"></video>
+                    <span class="text-white">Sobre Mí</span>
+                </h2>
+                <p class="text-muted">Desarrolladora apasionada por crear mundos digitales interactivos</p>
+            </div>
+            
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="fade-in">
+                        <div class="about-image-container position-relative">
+                            <img src="images/And.jpeg" alt="Andrea Meneses" class="img-fluid rounded-3 w-100" style="height: 500px; object-fit: cover; border: 1px solid var(--border-color);">
+                            <div class="about-image-overlay"></div>
+                            
+                            <!-- Floating decorations -->
+                            <div class="floating-decoration float-top-right"></div>
+                            <div class="floating-decoration float-bottom-left"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="fade-in" style="animation-delay: 0.2s;">
+                        <p class="text-muted mb-4">
+                            Hola, soy <span class="text-purple">Andrea Elizabeth Meneses García</span>, una desarrolladora frontend apasionada por crear experiencias web que van más allá de lo ordinario.
+                        </p>
+                        <p class="text-muted mb-4">
+                            Mi viaje en el desarrollo web comenzó con la curiosidad de entender cómo funcionan las interfaces interactivas. Hoy, lo que caracteriza mi trabajo es la combinación de código limpio, diseño elegante y atención obsesiva a cada detalle.
+                        </p>
+                        
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <h5 class="text-purple mb-3">Especialidades</h5>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fas fa-check text-purple me-2"></i>Frontend Development</li>
+                                    <li class="mb-2"><i class="fas fa-check text-purple me-2"></i>UX/UI Design</li>
+                                    <li class="mb-2"><i class="fas fa-check text-purple me-2"></i>Web Interactiva</li>
+                                    <li class="mb-2"><i class="fas fa-check text-purple me-2"></i>Project Management</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h5 class="text-purple mb-3">Valores</h5>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fas fa-check text-purple me-2"></i>Código Limpio</li>
+                                    <li class="mb-2"><i class="fas fa-check text-purple me-2"></i>Diseño Inmersivo</li>
+                                    <li class="mb-2"><i class="fas fa-check text-purple me-2"></i>UX Interactiva</li>
+                                    <li class="mb-2"><i class="fas fa-check text-purple me-2"></i>Innovación</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section id="resume" class="resume-section py-5">
+        <!-- Animated Background -->
+        <div class="resume-bg-container">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="rotating-gradient"></div>
+        </div>
+        <div class="container position-relative" style="z-index: 10;">
+            <div class="text-center mb-5">
+                <h2 class="display-4">
+                    <video src="images/gift duck.webm" autoplay muted loop width="50" height="50" title="Gift Duck" style="vertical-align: middle; margin-right: 10px;"></video>
+                    <span class="text-white">Currículum</span>
+                </h2>
+                <a href="https://via.placeholder.com/sample-cv.pdf" download class="btn btn-gold mt-3">
+                    <i class="fas fa-download me-2"></i>Descargar CV
+                </a>
+            </div>
+
+            <div class="row g-4">
+                <!-- Experiencia -->
+                <div class="col-lg-6">
+                    <h4 class="text-purple mb-4">
+                        <i class="fas fa-briefcase me-2"></i>Experiencia
+                    </h4>
+                    <div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024 - 2025</div>
+                            <div class="timeline-content">
+                                <h5>Project Manager Trainee</h5>
+                                <p class="text-gold">Nova US</p>
+                                <p class="text-muted small">Gestión de proyectos y coordinación de equipos. Seguimiento de tareas, comunicación con stakeholders y optimización de procesos de trabajo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Educación -->
+                <div class="col-lg-6">
+                    <h4 class="text-gold mb-4">
+                        <i class="fas fa-graduation-cap me-2"></i>Educación
+                    </h4>
+                    <div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2025 - Pausa</div>
+                            <div class="timeline-content">
+                                <h5>Licenciatura en Computación</h5>
+                                <p class="text-purple">Universidad</p>
+                                <p class="text-muted small">Formación en ciencias de la computación, algoritmos, estructuras de datos y desarrollo de software.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item mt-4">
+                            <div class="timeline-date">2026</div>
+                            <div class="timeline-content">
+                                <h5>Curso UX/UI Design</h5>
+                                <p class="text-purple">EDteam</p>
+                                <p class="text-muted small">Diseño de interfaces de usuario, experiencia del usuario y principios de usabilidad.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Habilidades Técnicas -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h4 class="text-purple mb-4">
+                        <video src="images/gift duck.webm" autoplay muted loop width="30" height="30" title="Gift Duck" style="vertical-align: middle; margin-right: 10px;"></video>Habilidades Técnicas
+                    </h4>
+                    <div class="row g-3">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="skill-card">
+                                <h6>JavaScript</h6>
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-purple" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="skill-card">
+                                <h6>HTML5 / CSS3</h6>
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-purple" style="width: 95%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="skill-card">
+                                <h6>Git / GitHub</h6>
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-purple" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="skill-card">
+                                <h6>Responsive Design</h6>
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-purple" style="width: 95%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section py-5">
+        <!-- Animated Background -->
+        <div class="contact-bg-container">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="animated-grid-small"></div>
+            <div class="rotating-gradient"></div>
+        </div>
+        <div class="container position-relative" style="z-index: 10;">
+            <div class="text-center mb-5">
+                <h2 class="display-4">
+                    <video src="images/gift duck.webm" autoplay muted loop width="50" height="50" title="Gift Duck" style="vertical-align: middle; margin-right: 10px;"></video>
+                    <span class="text-white">Contacto</span>
+                </h2>
+                <p class="text-muted">¿Tienes una pregunta? Estoy aquí para ayudarte</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form id="contactForm" class="needs-validation">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="tu@email.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="message" placeholder="Tu mensaje..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-purple w-100">Enviar Mensaje</button>
+                    </form>
+
+                    <div class="mt-5 text-center">
+                        <p class="text-muted mb-4">O conéctate directamente:</p>
+                        <div class="d-flex justify-content-center gap-3">
+                            <a href="mailto:andrea.elizabeth.meneses.g@gmail.com" class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="https://github.com/andreameneses" target="_blank" class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/andrea-elizabeth-meneses/" target="_blank" class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-4 mb-3">
+                    <div class="brand-footer mb-2">
+                        <video src="images/gift duck.webm" autoplay muted loop width="50" height="50" title="Gift Duck"></video>
+                    </div>
+                    <p class="text-muted small">Creando experiencias web que combinan código, diseño y creatividad.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h6 class="text-white mb-3">Enlaces</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#hero" class="text-muted small scroll-link">Inicio</a></li>
+                        <li><a href="#portfolio" class="text-muted small scroll-link">Portafolio</a></li>
+                        <li><a href="#about" class="text-muted small scroll-link">Sobre Mí</a></li>
+                        <li><a href="#resume" class="text-muted small scroll-link">CV</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h6 class="text-white mb-3">Contacto</h6>
+                    <a href="mailto:andrea.elizabeth.meneses.g@gmail.com" class="d-block text-muted small mb-2">
+                        <i class="fas fa-envelope me-2"></i>andrea.elizabeth.meneses.g@gmail.com
+                    </a>
+                    <div class="d-flex gap-2 justify-content-center justify-content-md-start mt-3">
+                        <a href="https://github.com/andreameneses" target="_blank" class="footer-social">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/andrea-elizabeth-meneses/" target="_blank" class="footer-social">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="text-muted small mb-0">
+                    © 2026 Andrea Elizabeth Meneses García. Hecho con <i class="fas fa-heart text-purple"></i> y mucho código.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Script personalizado -->
+    <script src="script.js"></script>
+</body>
+</html>
